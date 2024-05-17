@@ -1,0 +1,15 @@
+{
+    "features": {
+      "easyToUse": "Facile à utiliser",
+      "secure": "Sécurisé",
+      "realTimeAnalytics": "Analyses en temps réel",
+      "easyToUseDesc": "Notre plateforme est conçue pour être conviviale et intuitive.",
+      "secureDesc": "Nous donnons la priorité à votre vie privée et à votre sécurité avec un chiffrement de premier ordre.",
+      "realTimeAnalyticsDesc": "Suivez les performances de vos liens avec des analyses détaillées.",
+      "latestNews": "Dernières Nouvelles",
+      "latestFootballInfo": "Dernières Infos de Football",
+      "latestNewsDesc": "Restez informé des dernières nouvelles dans le monde du football.",
+      "latestFootballInfoDesc": "Obtenez les mises à jour et les statistiques les plus récentes des matchs de football."
+    }
+  }
+  

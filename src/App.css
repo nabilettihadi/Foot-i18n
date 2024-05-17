@@ -1,0 +1,112 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #282c34;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-nav {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 0px;
+}
+
+.lang-flag {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  height: 24px;
+  width: 36px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-right: 30px;
+
+
+}
+
+.lang-flag:hover {
+  transform: scale(1.1);
+}
+
+.App-header {
+  background-image: url('../public/images/foot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.App-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-item {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  width: 100%;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-item h3 {
+  color: #282c34;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  color: #555;
+}
